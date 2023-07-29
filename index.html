@@ -22,9 +22,7 @@
                     <li><a href="#music">Favourite Music</a></li> 
                     <li><a href="#albums">Albums</a></li> 
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> <!---------this icons are only visible at the small screen---->
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Music band</p>
@@ -148,7 +146,6 @@
     <div id="contact">
         <div class="container">
             <div class="row">
-                <div class="contact-left">
                     <h1 class="subtitle">Contacts</h1>
                     <p><i class="fa-solid fa-envelope"></i>sautisol@gmail.com</p>
                     <p><i class="fa-solid fa-phone-volume"></i>0712345678</p>
@@ -160,16 +157,6 @@
                         <a href="https://open.spotify.com/artist/4Rj9lQm9oSiMlirgpsM6eo"><i class="fa-brands fa-spotify"></i></a>
                         <a href="https://music.apple.com/us/artist/sauti-sol/319063256"><i class="fa-brands fa-itunes"></i></a>
                     </div>
-
-                </div> 
-                <div class="contact-right">
-                    <form >
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your email" required>
-                        <textarea name="Message" cols="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div> 
             </div>
         </div>
         <div class="copyright">
@@ -177,17 +164,6 @@
             <p>©LEVIN MWANGE 2023</p>
         </div>
     </div>
-    <!-----this script is fot the side menu-->
-    <script>
-        var sidemeu = document.getElementById("sidemenu");
-
-        function openmenu(){
-            sidemeu.style.right = "0";
-        }
-        function closemenu(){
-            sidemeu.style.right = "-200px";
-        }
-    </script>
     <!-----i used this javascript to allow the user play the songs via the website-->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
