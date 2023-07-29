@@ -187,17 +187,14 @@ nav ul li a:hover::after{
     background-color:#ff004f;
 }
 /*--------contact-------------*/
-.contact-left{
-    flex-basis: 35%;
+.row{
+    flex-basis: 100%;
+    padding: 40px;
 }
-.contact-right{
-    flex-basis: 60%;
+.row p{
+    padding: 20px;
 }
-.contact-left p{
-    margin-top: 30px;
-    margin: 25px;
-}
-.contact-left p i{
+.row p i{
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
