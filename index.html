@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+    <title>Sauti Sol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89efd9a547.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---header section first page of the website-->
+    <div id="header">
+        <div class="background-image"></div>
+        <div class="container">
+            <nav> 
+                <img src="images/logo2.png" class="logo"> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Members">Band Members</a></li> 
+                    <li><a href="#music">Favourite Music</a></li> 
+                    <li><a href="#albums">Albums</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Music band</p>
+                <h1><span>Sauti Sol</span><br>From Nairobi,Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------about the music band------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/header.jpg  ">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About The Band</h1> 
+                    <p>Sauti Sol is a Kenyan Afropop band formed in Nairobi in 2005 by vocalists Bien-Aimé Baraza, Willis Chimano and Savara Mudigi. <br>Initially an a cappella group, guitarist Polycarp Otieno joined before they named themselves Sauti Sol. <br>
+                        Sauti Sol released their debut studio album Mwanzo on 1 November 2008, to critical acclaim. Their second studio album, Sol Filosofia, was released on 25 February 2011, earning the group a number of accolades and nominations in the process. On 18 June 2012, the band released a self-titled extended play in collaboration with South African rapper and record producer Spoek Mathambo.<br>Their third studio album, Live and Die in Afrika, was released online on 21 November 2015 as a free download, available for 48 hours as an early Christmas present.
+                        <br><b class="text">Achivements</b> <br>The band has had several successful tours in Africa and Europe, topped Kenyan charts and gained international attention with shows in Europe and the US, as well as television appearances and various accolades and nominations, including their 2011 concert performance in Kenya with South African a cappella group Ladysmith Black Mambazo. <br> The band has also received both local and international accolades and nominations, including at the Kisima Music Awards,the Channel O Music Video Awards,the MTV Europe Music Awards, and the BET Awards.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------band members---------------------->
+    <div id="Members">
+        <div class="container">
+            <h1 class="subtitle">Band Members</h1>
+            <div class="Members-list">
+                <div class="members">
+                    <img src="images/bien.jpg" >
+                    <div class="layer">
+                        <h3>BEIN-AIME BARAZA</h3>
+                        <p>Bien Aimé Baraza (Born on 28th December 1987).Bien Aime Baraza is a celebrated songwriter and a current active member of the Sauti Sol Band.  
+                            Other than songwriting, Bien is a vocalist and guitarist.</p> 
+                        <a href="https://www.instagram.com/bienaimesol/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="members">
+                    <img src="images/savara.png" >
+                    <div class="layer">
+                        <h3>SAVARA MUDIGI</h3>
+                        <p>Savara Delvin Mudigi is a member of the Sauti Sol band who is the band’s producer, vocalist, and guitarist. 
+                            This article looks into his biography highlighting his background, education, career journey, and personal life details.
+                            He was born on 25th May in 1987. His parents named him Delvin Mudigi upon his birth.
+                        </p>
+                        <a href="https://www.instagram.com/savarafrica/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="members">
+                    <img src="images/chimano.jpg" >
+                    <div class="layer">
+                        <h3>CHIMANO</h3>
+                        <p>
+                            Willis Austin Chimano is a vocalist, keytarist, a saxophonist and member of the popular all boy band Sauti Sol
+                            Willis Austin Chimano was born on 9th July 1987. 
+                        </p>
+                        <a href="https://www.instagram.com/iamchimano/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="members">
+                    <img src="images/poly.jpg" >
+                    <div class="layer">
+                        <h3>POLYCARP OTIENO</h3>
+                        <p>
+                            Polycarp Otieno aka Fancy Fingers is a renowned music producer, composer and 1/4 of celebrated music group Sauti Sol. 
+                            He is a soulful artist and authentic brand from East Africa with the aim of empowering the African youth with knowledge and cultural appreciation through his music and initiatives
+                            He was born on 14th November 1987 in Kenya where he has been brought up. 
+                        </p>
+                        <a href="https://www.instagram.com/itsmefancyfingers/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!----favorite music-------->
+    <div id="music">
+        <div class="container">
+                    <h1 class="subtitle">Favorite Music</h1>
+                       <div class="player">
+                         <audio id="audio-player" controls>
+                          Your browser does not support the audio element.
+                         </audio>
+                       </div>
+                       <ul id="song-list">
+                          <li data-src="images/song1.mp3">Friendzone</li>
+                          <li data-src="images/song2.mp3">Insecure</li>
+                          <li data-src="images/song3.mp3">Rewind</li>
+                          <li data-src="images/song4.mp3">Sober</li>
+                        </ul>
+        </div>
+        <!----albums-------------->
+    </div>
+    <div id="albums">
+        <div class="container">
+            <h1 class="subtitle">Albums</h1>
+            <div class="Members-list"> <!----i have repeted the class to allow this section share the styling-->
+                    <div class="members">
+                        <img src="images/midnightTrain.jpg">
+                        <div class="layer">
+                            <h3>Midnight Train</h3>
+                            <p>Midnight Train is the fifth studio album by Kenyan Afropop band Sauti Sol. It was released by Universal Music Africa on June 5, 2020. Recorded in English, Swahili, and Luhya, the album comprises 13 tracks and is the band's first project released under the label</p>
+                            <a href="https://open.spotify.com/album/2R0nfEjaMFMb8qyPnQmDzK?autoplay=true"><i class="fa-brands fa-spotify"></i></a>
+                        </div>
+                    </div>
+                    <div class="members">
+                        <img src="images/Afrikan_Sauce_cover (1).jpg">
+                        <div class="layer">
+                            <h3>Afrikan Sauce</h3>
+                            <p>Afrikan Sauce is the fourth studio album by Kenyan band Sauti Sol, released on their eponymous record label Sauti Sol Entertainment. Primarily an Afropop and R&B record, Afrikan Sauce marked a departure from the traditional acoustic sound of their previous albums</p>
+                            <a href="https://open.spotify.com/album/6kn9tgw5ktETOGSdwEJI9F?autoplay=true"><i class="fa-brands fa-spotify"></i></a>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+    <!---------contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contacts</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sautisol@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>0712345678</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/SautiSol/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/sautisol/status/592034794319536128"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/sautisol/?hl=en"><i class="fa-brands fa-instagram "></i></a>
+                        <a href="https://www.youtube.com/user/sautisol"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/artist/4Rj9lQm9oSiMlirgpsM6eo"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://music.apple.com/us/artist/sauti-sol/319063256"><i class="fa-brands fa-itunes"></i></a>
+                    </div>
+
+                </div> 
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" cols="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div> 
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-sharp fa-solid fa-l fa-bounce"></i></p>
+            <p>©LEVIN MWANGE 2023</p>
+        </div>
+    </div>
+    <!-----this script is fot the side menu-->
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <!-----i used this javascript to allow the user play the songs via the website-->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const audioPlayer = document.getElementById("audio-player");
+    const songList = document.querySelectorAll("#song-list li");
+
+    // Play the selected song when a list item is clicked
+    songList.forEach((song) => {
+        song.addEventListener("click", function () {
+            const songSrc = this.getAttribute("data-src");
+            audioPlayer.src = songSrc;
+            audioPlayer.play();
+        });
+    });
+     });
+    </script>
+</body>
+</html>   
