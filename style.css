@@ -267,11 +267,10 @@ form .btn.btn2{
 .copyright i{
     color: #ff004f;
 }
-
-/*------- SMALL SCREENS---------*/
 nav .fa-solid{
     display: none;
 }
+/*-------this section of the css that describe how the site will look at small screens---------*/
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/header.jpg);
